@@ -26,7 +26,7 @@ batch_img_base64 = get_base64_image("./batch_image.png")
 # Set up columns for layout
 col1, col2 = st.columns(2)
 
-# Add buttons with background images
+# Add buttons with background images and hyperlinks
 with col1:
     st.markdown(
         f"""
@@ -41,16 +41,15 @@ with col1:
             font-family: Arial, sans-serif;
             font-size: 20px;
             font-weight: bold;
-            cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
         }}
         </style>
-        <button class="single-button" onclick="window.location.href='https://nephrotoxpred-single.streamlit.app/';">
-            Click for Single Compound Prediction
-        </button>
+        <div class="single-button">
+            <a href="https://nephrotoxpred-single.streamlit.app/" target="_blank" style="color:black; text-decoration: none;">Click for Single Compound Prediction</a>
+        </div>
         """, 
         unsafe_allow_html=True
     )
@@ -69,16 +68,15 @@ with col2:
             font-family: Arial, sans-serif;
             font-size: 20px;
             font-weight: bold;
-            cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
         }}
         </style>
-        <button class="batch-button" onclick="window.location.href='https://nephrotoxpred-in-batch.streamlit.app/';">
-            Click for Batch Compound Prediction
-        </button>
+        <div class="batch-button">
+            <a href="https://nephrotoxpred-in-batch.streamlit.app/" target="_blank" style="color:black; text-decoration: none;">Click for Batch Compound Prediction</a>
+        </div>
         """, 
         unsafe_allow_html=True
     )
