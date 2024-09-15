@@ -15,7 +15,7 @@ def load_image(image_path):
 logo = load_image("./logo.png")
 st.image(logo)
 
-st.write("Supported by the service of Zhu's AI-Drug Lab at the affiliated Brain Hospital, Guangzhou Medical University. If you have any questions, please contact me at 2018760376@gzhmu.edu.cn.")
+st.write("Supported by the service of Xiuqing Zhu at the AI-Drug Lab, the affiliated Brain Hospital, Guangzhou Medical University, China. If you have any questions, please feel free to contact me at 2018760376@gzhmu.edu.cn. ")
 
 st.title("Nephrotoxic Component Predictor")
 
@@ -48,7 +48,7 @@ with col1:
             text-align: center;
         }}
         </style>
-        <button class="single-button" onclick="window.location.href='http://localhost:8501/python1';">
+        <button class="single-button" onclick="window.location.href='https://nephrotoxpred-single.streamlit.app/';">
             Click for Single Compound Prediction
         </button>
         """, 
@@ -76,7 +76,7 @@ with col2:
             text-align: center;
         }}
         </style>
-        <button class="batch-button" onclick="window.location.href='http://localhost:8501/python2';">
+        <button class="batch-button" onclick="window.location.href='https://nephrotoxpred-in-batch.streamlit.app/';">
             Click for Batch Compound Prediction
         </button>
         """, 
