@@ -52,7 +52,7 @@ with col1:
         }}
         </style>
         <div class="single-button">
-            <a href="https://nephrotoxpredictor-single.streamlit.app/" target="_blank" style="color:black; text-decoration: none;">Click for Single Compound Prediction</a>
+            <a href="https://tcm-envnephrotoxpred-single.streamlit.app/" target="_blank" style="color:black; text-decoration: none;">Click for Single Compound Prediction</a>
         </div>
         """, 
         unsafe_allow_html=True
@@ -79,7 +79,7 @@ with col2:
         }}
         </style>
         <div class="batch-button">
-            <a href="https://nephrotoxpredictor-batch.streamlit.app/" target="_blank" style="color:black; text-decoration: none;">Click for Batch Compound Prediction</a>
+            <a href="https://tcm-envnephrotoxpred-batch.streamlit.app/" target="_blank" style="color:black; text-decoration: none;">Click for Batch Compound Prediction</a>
         </div>
         """, 
         unsafe_allow_html=True
