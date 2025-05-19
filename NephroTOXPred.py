@@ -15,11 +15,11 @@ def load_image(image_path):
 logo = load_image("./logo.png")
 st.image(logo)
 
-st.write("TCM-EnvNephroToxPred: A computational tool for renal toxicity evaluation of environmentally relevant Traditional Chinese Medicine compounds developed through interdisciplinary collaboration. This predictive model assesses nephrotoxic risks in herbal-derived environmental contaminants.")
+st.write("**TCM-EnvNephroToxPred**: A computational tool for renal toxicity evaluation of environmentally relevant Traditional Chinese Medicine compounds developed through interdisciplinary collaboration. This predictive model assesses nephrotoxic risks in herbal-derived environmental contaminants.")
 
-st.write("Research Support: This work was enabled by computational infrastructure and expertise from Pro. Xiuqing Zhu, AI-Drug Lab, the Affiliated Brain Hospital of Guangzhou Medical University, China.")
+st.write("**Research Support**: This work was enabled by computational infrastructure and expertise from Pro. Xiuqing Zhu, AI-Drug Lab, the Affiliated Brain Hospital of Guangzhou Medical University, China.")
 
-st.write("Contact: For scientific inquiries or collaborative opportunities, please contact: Pro. Xiuqing Zhu, Email: 2018760376@gzhmu.edu.cn")
+st.write("**Contact**: For scientific inquiries or collaborative opportunities, please contact: Pro. Xiuqing Zhu, Email: 2018760376@gzhmu.edu.cn")
 
 st.title("Nephrotoxic Component Predictor")
 
